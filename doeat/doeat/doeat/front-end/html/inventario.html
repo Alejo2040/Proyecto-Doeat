@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Do Eat - Inventario</title>
+  <link rel="stylesheet" href="../css/inventario.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="header-left">
+      <img src="../img/Logo.png" alt="Do Eat logo" class="logo"/>
+      <span class="header-title">do eat - Inventario</span>
+    </div>
+    <nav class="nav-links">
+      <a href="dashboard.html">Inicio</a>
+      <a href="registro_venta.html">Registrar Ventas</a>
+      <a href="historial_ventas.html">Historial</a>
+      <a href="index.html">Salir</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contenedor-cards">
+      <div class="card">
+        <h2>Inventario</h2>
+        <table id="tablaInventario">
+          <thead>
+            <tr>
+              <th>Ingrediente</th>
+              <th>Cantidad</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Las filas se generan dinámicamente -->
+          </tbody>
+        </table>
+
+        <form id="ingredienteForm">
+          <input type="text" id="ingrediente" placeholder="Ingrediente" required>
+          <input type="number" id="cantidadIngrediente" placeholder="Cantidad" required>
+          <button type="submit" class="agregar-btn">Agregar</button>
+        </form>
+      </div>
+
+      <div class="card productos-agotados">
+        <h2>Productos Casi Agotados</h2>
+
+        <div class="producto">
+          <p>Mantequilla (g) <span>500</span></p>
+        </div>
+
+        <div class="producto">
+          <p>Huevos (unidad) <span>12</span></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="../js/inventario.js"></script>
+</body>
+</html>

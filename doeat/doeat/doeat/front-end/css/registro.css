@@ -1,0 +1,206 @@
+/*
+body {
+    font-family:  'Roboto Condensed', sans-serif;
+    background-image: url('../img/Fondo.png'); 
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+  } 
+  
+  .register-container {
+    font-family:  'Roboto Condensed', sans-serif;
+    background-color: #7d9c6b;
+    width: 80%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    text-align: center;
+  }
+  
+  .logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+  }
+  
+  .register-container input {
+    display: block;
+    width: 90%;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f3e9d2;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .register-container button {
+    background-color: #506c4f;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 15px;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-container button:hover {
+    background-color: #3c523b;
+  }
+  
+  .register-container a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #000;
+    font-size: 0.9rem;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+  }
+  
+  .register-container a:hover {
+    color: #333;
+  }
+  
+  .header-flex {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 15px; 
+    margin-bottom: 20px;
+  }
+  
+  .header-flex .logo {
+    margin: 0;
+    width: 60px;
+    height: 60px;
+  }
+  */
+  body { 
+    font-family:  'Roboto Condensed', sans-serif;
+    background-image: url('../img/Fondo.png'); 
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Centra verticalmente */
+    /*overflow: hidden; Elimina el desplazamiento para no tener que mover el cursor */
+}
+
+.register-container {
+    background-color: #7d9c6b;
+    width: 80%;
+    max-width: 500px; /* Ajustado para un mejor tamaño en pantallas pequeñas */
+    padding: 25px;
+    margin: 50px auto;
+    border-radius: 30px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+    text-align: left; /* Alinea el texto a la izquierda */
+    box-sizing: border-box;
+    
+}
+
+.logo {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 1.6rem; /* Tamaño más pequeño para el título */
+    letter-spacing: 1px;
+    text-align: center; /* Alinea el título en el centro */
+}
+
+.register-container label {
+    color: white; /* Títulos en blanco */
+    font-size: 0.9rem; /* Tamaño de fuente más pequeño */
+    margin-bottom: 8px;
+    display: block;
+    font-weight: bold;
+}
+
+.register-container input,
+.register-container select {
+    display: block;
+    width: 100%; /* Ocupa el 100% del contenedor */
+    margin: 8px 0;
+    padding: 10px; /* Reducido para un tamaño más compacto */
+    border: none;
+    border-radius: 20px;
+    background-color: #f3e9d2;
+    font-size: 0.9rem; /* Tamaño de fuente más pequeño */
+    color: #333;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+    transition: background-color 0.3s ease;
+}
+
+.register-container input:focus,
+.register-container select:focus {
+    outline: none;
+    background-color: #d7d7d7;
+}
+
+.register-container button {
+    background-color: #506c4f;
+    color: white;
+    border: none;
+    padding: 10px 20px; /* Tamaño más pequeño en el botón */
+    margin-top: 15px;
+    font-size: 0.9rem; /* Tamaño de fuente más pequeño */
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 60%; /* El botón ocupa todo el ancho */
+
+}
+
+.register-container button:hover {
+  background-color: #3c523b;
+}
+
+.register-container a {
+  display: inline-block;
+  margin-top: 15px;
+  color: #000;
+  font-size: 0.9rem;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.register-container a:hover {
+    color: #333;
+}
+
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  gap: 15px; 
+  margin-bottom: 20px;
+}
+
+.header-flex .logo {
+  margin: 0;
+  width: 60px;
+  height: 60px;
+}
+
+

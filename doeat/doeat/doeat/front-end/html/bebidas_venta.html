@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Do Eat - Ventas</title>
+  <link rel="stylesheet" href="../css/RespoBebi_venta.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="header-left">
+      <img src="../img/Logo.png" alt="Do Eat logo" class="logo"/>
+      <span class="header-title">DO EAT - BEBIDAS</span>
+    </div>
+    <nav class="nav-links">
+      <a href="dashboard.html">Inicio</a>
+      <a href="registro_venta.html">Registrar Ventas</a>
+      <a href="inventario.html">Inventario</a>
+      <a href="historial_ventas.html">Historial</a>
+      <a href="index.html">Salir</a>
+    </nav>
+  </header>
+
+  <main class="venta-container">
+    <!-- Imagen del producto -->
+    <div class="venta-imagen">
+      <div class="carrusel">
+        <img src="../img/Bebidas/Chocolate_con_masmelos.png" alt="chocolate">
+        <img src="../img/Bebidas/Batido_de_frutos_rojos.png" alt="batido">
+        <img src="../img/Bebidas/Agua_350_Mill.png" alt="agua cristal">
+        <img src="../img/Bebidas/Cappuccino.png" alt="cafe">
+        <img src="../img/Bebidas/Agua_gas.png" alt="agua con gas">
+        <img src="../img/Bebidas/ICE_COFFE.png" alt="ice coffe">
+        <img src="../img/Bebidas/Hatsu caja.png" alt="caja hatsu">
+        <img src="../img/Bebidas/Granizado_de_café_con_oreo.png" alt="granizado">
+        <img src="../img/Bebidas/Jugos_naturales.png" alt="jugos naturales">
+        <img src="../img/Bebidas/Agua_hatsu_500_ml.png" alt="soda hatsu">
+        <img src="../img/Bebidas/limonada.png" alt="limonada">
+        <img src="../img/Bebidas/Te_botella.png" alt="te">
+        <img src="../img/Bebidas/Americano.png" alt="americano">
+      </div>
+    </div>
+
+    <!-- Formulario y Factura -->
+    <div class="venta-formulario">
+      <form class="formulario" id="formulario">
+        <div class="inputs">
+          <input type="text" id="producto" placeholder="Ej: cafe" required />
+          <input type="number" id="cantidad" min="1" value="1" required />
+          <button type="submit" class="btn-verde">Registrar venta</button>
+        </div>
+      </form>
+
+      <table class="factura" id="tablaFactura">
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Cantidad</th>
+            <th>Precio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Filas dinámicas -->
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="2"><strong>Total</strong></td>
+            <td id="total">$0</td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <div class="botones">
+        <button class="btn-oscuro" onclick="agregarAFactura()">Agregar a Factura</button>
+        <button class="btn-oscuro" onclick="window.print()">Imprimir Factura</button>
+      </div>
+    </div>
+  </main>
+  <script src="../js/registro_ventas.js"></script>
+</body>
+</html>

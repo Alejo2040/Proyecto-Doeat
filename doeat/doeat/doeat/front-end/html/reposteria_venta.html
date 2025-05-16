@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Do Eat - Ventas</title>
+  <link rel="stylesheet" href="../css/RespoBebi_venta.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="header-left">
+      <img src="../img/Logo.png" alt="Do Eat logo" class="logo"/>
+      <span class="header-title">DO EAT - REPOSTERÍA</span>
+    </div>
+    <nav class="nav-links">
+      <a href="dashboard.html">Inicio</a>
+      <a href="registro_venta.html">Registrar Ventas</a>
+      <a href="inventario.html">Inventario</a>
+      <a href="historial_ventas.html">Historial</a>
+      <a href="index.html">Salir</a>
+    </nav>
+  </header>
+
+  <main class="venta-container">
+    <!-- Imagen del producto -->
+    <div class="venta-imagen">
+      <div class="carrusel">
+        <img src="../img/Reposteria/almojabanas.png" alt="almojabanas">
+        <img src="../img/Reposteria/Crepes_Nutella.png" alt="crepes">
+        <img src="../img/Reposteria/pastel_carne.png" alt="pastel_carne">
+        <img src="../img/Reposteria/Croissant_de_almendras.png" alt="croissant_almendras">
+        <img src="../img/Reposteria/sandwich_doeat.png" alt="sandwich_doeat">
+        <img src="../img/Reposteria/Croissant_de_chocolate.png" alt="croissant_chocolate">
+        <img src="../img/Reposteria/Pastel_hawaiano.png" alt="hawaiano">
+        <img src="../img/Reposteria/pastel_pollo.png" alt="pastel_pollo">
+        <img src="../img/Reposteria/Croissant_de_cookies.png" alt="croissant_cookies">
+        <img src="../img/Reposteria/palito_queso.png" alt="palito_queso">
+        <img src="../img/Reposteria/Croissant_de_queso.png" alt="croissant_queso">      
+      </div>
+    </div>
+
+    <!-- Formulario y Factura -->
+    <div class="venta-formulario">
+      <form class="formulario" id="formulario">
+        <div class="inputs">
+          <input type="text" id="producto" placeholder="Ej: Empanada" required />
+          <input type="number" id="cantidad" min="1" value="1" required />
+          <button type="submit" class="btn-verde">Registrar venta</button>
+        </div>
+      </form>
+
+      <table class="factura" id="tablaFactura">
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Cantidad</th>
+            <th>Precio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Filas dinámicas -->
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="2"><strong>Total</strong></td>
+            <td id="total">$0</td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <div class="botones">
+        <button class="btn-oscuro" onclick="agregarAFactura()">Agregar a Factura</button>
+        <button class="btn-oscuro" onclick="window.print()">Imprimir Factura</button>
+      </div>
+    </div>
+  </main>
+  <script src="../js/registro_ventas.js"></script>
+</body>
+</html>

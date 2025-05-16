@@ -1,0 +1,164 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Fondo general */
+  body {
+    font-family:  'Roboto Condensed', sans-serif;
+    background-color: #fefefe;
+    margin: 0;
+    background-image: url('../img/Fondo.png'); 
+    background-size: cover;
+    color: #333;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #94a97f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    color: white;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  .header-title {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Layout principal */
+  .venta-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 30px;
+  }
+  
+  /* Imagen izquierda */
+  .venta-imagen img {
+    width: 350px;
+    border-radius: 2px;
+    object-fit: cover;
+  }
+  
+  /* Contenedor estilo tarjeta */
+  .venta-formulario {
+    background-color: #94a983b6;
+    padding: 25px 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(61, 131, 65, 0.664);
+    width: 430px;
+  }
+  
+  /* Inputs alineados y bonitos */
+  .formulario .inputs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+    align-items: center;
+  }
+  
+  .inputs input {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    flex: 1;
+    font-size: 14px;
+  }
+  
+  .btn-verde {
+    background-color: #557347;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .btn-verde:hover {
+    background-color: #465e3b;
+  }
+  
+  /* Tabla */
+  .factura {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .factura th {
+    text-align: left;
+    background-color: transparent;
+    padding-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .factura td {
+    padding: 6px 0;
+  }
+  
+  /* Botones inferiores */
+  .botones {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .btn-oscuro {
+    flex: 1;
+    background-color: #508f50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .btn-oscuro:hover {
+    background-color: #1e2824;
+  }
+  
+  /* ... todo igual que antes ... */
+
+.venta-formulario {
+    background-color: #94a983b6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 70%; /* MÁS GRANDE */
+    min-height: 500px;
+  }
+
+  

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Do Eat - Dashboard</title>
+  <link rel="stylesheet" href="../css/deshboard.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="header-left">
+      <img src="../img/Logo.png" alt="Do Eat logo" class="logo"/>
+      <span class="header-title">do eat</span>
+    </div>
+    <nav class="nav-links">
+      <a href="registro_venta.html">Registrar Ventas</a>
+      <a href="inventario.html">Inventario</a>
+      <a href="historial_ventas.html">Historial</a>
+      <a href="index.html">Salir</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="flex-container">
+      <div class="card">
+        <h2>PRODUCTO MÁS VENDIDO DEL DÍA</h2>
+        <div class="card-content img-text">
+          <img src="../img/Reposteria/Croissant_de_cookies.png" alt="Croissant Cookies">
+          <div>
+            <p>Los croissant cookies son galletas suaves y hojaldradas, con una textura crujiente por fuera y un sabor mantecoso. Son perfectas para disfrutar con café o té.</p>
+            <p><strong>50 vendidos</strong></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card wide">
+        <h2>PREDICCIÓN DE VENTAS</h2> 
+        <div class="card-content img-text">
+          <div class="productos-mes" id="predicciones-mes">
+            <!-- Predicciones insertadas dinámicamente -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="flex-container">
+      <div class="card">
+        <h2>PRODUCTOS MÁS VENDIDOS DEL MES</h2>
+        <div class="productos-mes">
+          <div class="producto img-text">
+              <img src="../img/Bebidas/Mocca.png" alt="Café Americano">
+              <p>Un café Americano de 6oz es un espresso doble diluido con agua caliente.<br><strong>100 Vendidos</strong></p>
+          </div>
+          <div class="producto img-text">
+              <img src="../img/Reposteria/Croissant_de_chocolate.png" alt="Croissant Chocolate">
+              <p>Hojaldre premium con chocolate intenso, una delicia gourmet.<br><strong>80 vendidos</strong></p>            
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Resumen de Ventas</h2>
+        <canvas id="ventasChart" width="250" height="250"></canvas>
+      </div>
+    </main>
+  
+    <script src="../js/deshboard.js"></script>
+</body>
+</html>
+

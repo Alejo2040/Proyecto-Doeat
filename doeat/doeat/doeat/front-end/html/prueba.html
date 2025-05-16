@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Prueba JSON</title>
+</head>
+<body>
+  <h1>Probando carga de JSON</h1>
+  <pre id="resultado"></pre>
+
+  <script>
+    fetch("../../../prediccion_mes.json")
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById("resultado").innerText = JSON.stringify(data, null, 2);
+      })
+      .catch(err => {
+        document.getElementById("resultado").innerText = "Error: " + err;
+        console.error("Error cargando el JSON:", err);
+      });
+  </script>
+</body>
+</html>

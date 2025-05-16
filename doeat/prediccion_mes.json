@@ -1,0 +1,416 @@
+[
+    {
+        "producto": "Agua 350 Mill",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 12.27,
+        "mse_modelo": 78.09
+    },
+    {
+        "producto": "Agua gas",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 1.26,
+        "mse_modelo": 59.42
+    },
+    {
+        "producto": "Agua hatsu 500 ml",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 1.87,
+        "mse_modelo": 58.73
+    },
+    {
+        "producto": "Alpinette",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 9.05,
+        "mse_modelo": 88.2
+    },
+    {
+        "producto": "Americano",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 4.39,
+        "mse_modelo": 57.26
+    },
+    {
+        "producto": "Arepa de Boyacense",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 4.51,
+        "mse_modelo": 60.36
+    },
+    {
+        "producto": "Arroz con leche",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 1.89,
+        "mse_modelo": 79.46
+    },
+    {
+        "producto": "Batido de frutos rojos",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 3.74,
+        "mse_modelo": 48.11
+    },
+    {
+        "producto": "Bizcocho dulce",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 2.25,
+        "mse_modelo": 63.59
+    },
+    {
+        "producto": "Bonyurt",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 0.97,
+        "mse_modelo": 72.87
+    },
+    {
+        "producto": "Cappuccino",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 7.6,
+        "mse_modelo": 75.54
+    },
+    {
+        "producto": "Cheesecake",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 0.24,
+        "mse_modelo": 59.91
+    },
+    {
+        "producto": "Cheesecake grande",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 4.43,
+        "mse_modelo": 41.41
+    },
+    {
+        "producto": "Chocolate con masmelos",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 1.82,
+        "mse_modelo": 105.39
+    },
+    {
+        "producto": "Chocolate doeat",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 8.98,
+        "mse_modelo": 61.39
+    },
+    {
+        "producto": "Chocolisto",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 0.81,
+        "mse_modelo": 37.1
+    },
+    {
+        "producto": "Cool drink",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 1.8,
+        "mse_modelo": 67.2
+    },
+    {
+        "producto": "Crepes Nutella",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 10.16,
+        "mse_modelo": 110.52
+    },
+    {
+        "producto": "Croissant cookies",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 0.0,
+        "mse_modelo": 71.38
+    },
+    {
+        "producto": "Croissant de almendras",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 11.48,
+        "mse_modelo": 75.82
+    },
+    {
+        "producto": "Croissant de chocolate",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 4.32,
+        "mse_modelo": 75.44
+    },
+    {
+        "producto": "Croissant de queso",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 0.0,
+        "mse_modelo": 40.61
+    },
+    {
+        "producto": "Croissant relleno",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 6.57,
+        "mse_modelo": 66.16
+    },
+    {
+        "producto": "Croissant relleno salado",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 6.2,
+        "mse_modelo": 110.99
+    },
+    {
+        "producto": "Espresso",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 3.41,
+        "mse_modelo": 82.42
+    },
+    {
+        "producto": "Espumoso",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 2.73,
+        "mse_modelo": 68.83
+    },
+    {
+        "producto": "Fresas con crema",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 0.0,
+        "mse_modelo": 57.0
+    },
+    {
+        "producto": "Granizado de café con oreo",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 0.75,
+        "mse_modelo": 78.51
+    },
+    {
+        "producto": "Hatsu caja",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 2.55,
+        "mse_modelo": 67.61
+    },
+    {
+        "producto": "ICE CARAMEL",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 1.36,
+        "mse_modelo": 93.75
+    },
+    {
+        "producto": "ICE COFFE",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 0.17,
+        "mse_modelo": 75.93
+    },
+    {
+        "producto": "Infusión",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 0.26,
+        "mse_modelo": 64.29
+    },
+    {
+        "producto": "Jugos naturales",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 0.74,
+        "mse_modelo": 75.98
+    },
+    {
+        "producto": "Lata hatsu soda",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 2.41,
+        "mse_modelo": 36.26
+    },
+    {
+        "producto": "Latte",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 3.52,
+        "mse_modelo": 94.66
+    },
+    {
+        "producto": "Limonada",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 0.11,
+        "mse_modelo": 65.82
+    },
+    {
+        "producto": "Macchiato",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 3.06,
+        "mse_modelo": 83.43
+    },
+    {
+        "producto": "Milo caliente",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 1.4,
+        "mse_modelo": 47.63
+    },
+    {
+        "producto": "Mini Bon Yourt",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 0.69,
+        "mse_modelo": 71.27
+    },
+    {
+        "producto": "Mocca",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 5.08,
+        "mse_modelo": 76.48
+    },
+    {
+        "producto": "Mocca frío espumoso",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 7.23,
+        "mse_modelo": 51.23
+    },
+    {
+        "producto": "Muffins",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 4.11,
+        "mse_modelo": 93.87
+    },
+    {
+        "producto": "Palito de queso",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 1.39,
+        "mse_modelo": 78.01
+    },
+    {
+        "producto": "Palito de queso y jamón",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 2.91,
+        "mse_modelo": 105.63
+    },
+    {
+        "producto": "Parfait",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 5.33,
+        "mse_modelo": 99.31
+    },
+    {
+        "producto": "Pastel de carne",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 0.76,
+        "mse_modelo": 79.49
+    },
+    {
+        "producto": "Pastel de pollo",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 2.35,
+        "mse_modelo": 86.14
+    },
+    {
+        "producto": "Pastel gloria",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 4.78,
+        "mse_modelo": 91.02
+    },
+    {
+        "producto": "Pastel hawaiano",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 21.17,
+        "mse_modelo": 70.97
+    },
+    {
+        "producto": "Sandwich jamón queso",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 1.86,
+        "mse_modelo": 93.05
+    },
+    {
+        "producto": "Scheppes",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 4.26,
+        "mse_modelo": 82.21
+    },
+    {
+        "producto": "Shake",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 11.25,
+        "mse_modelo": 66.82
+    },
+    {
+        "producto": "Smoothie de frutas",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 0.44,
+        "mse_modelo": 85.29
+    },
+    {
+        "producto": "Soda hatsu",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 1.61,
+        "mse_modelo": 62.01
+    },
+    {
+        "producto": "Sorbete de açai",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 0.61,
+        "mse_modelo": 111.19
+    },
+    {
+        "producto": "Té Twinngs",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 0.0,
+        "mse_modelo": 62.88
+    },
+    {
+        "producto": "Té botella",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 2.06,
+        "mse_modelo": 51.63
+    },
+    {
+        "producto": "Té chai",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 2.45,
+        "mse_modelo": 88.76
+    },
+    {
+        "producto": "Té chai agua",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 0.93,
+        "mse_modelo": 71.53
+    },
+    {
+        "producto": "Wafle",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 0.96,
+        "mse_modelo": 52.05
+    },
+    {
+        "producto": "Yogurt finesse",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 0.86,
+        "mse_modelo": 93.5
+    },
+    {
+        "producto": "aguapanela",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 0.0,
+        "mse_modelo": 54.26
+    },
+    {
+        "producto": "alfajor",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 2.87,
+        "mse_modelo": 70.93
+    },
+    {
+        "producto": "arequipe de cafe",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 1.4,
+        "mse_modelo": 66.79
+    },
+    {
+        "producto": "avena",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 1.98,
+        "mse_modelo": 75.52
+    },
+    {
+        "producto": "empanadas",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 0.0,
+        "mse_modelo": 57.91
+    },
+    {
+        "producto": "natilla",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 0.0,
+        "mse_modelo": 66.2
+    },
+    {
+        "producto": "palito de queso y bocadillo",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 6.06,
+        "mse_modelo": 100.42
+    },
+    {
+        "producto": "té chai Granizado",
+        "fecha_prediccion": "2025-05-01",
+        "cantidad_predicha": 0.09,
+        "mse_modelo": 45.71
+    }
+]
