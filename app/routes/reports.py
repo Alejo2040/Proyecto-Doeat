@@ -4,11 +4,11 @@ from sqlalchemy.sql import func
 from typing import List, Optional
 from datetime import datetime
 
-from ..config.db import get_db
-from ..models.product import Product, StockMovement, Sale, Purchase
-from ..schemas.product import InventorySummary, ProductResponse
-from ..models.user import User
-from ..routes.auth import get_current_user, get_admin_user  # Import corregido
+from config.db import get_db
+from models.product import Product, StockMovement, Sale, Purchase
+from schemas.product import InventorySummary, ProductResponse
+from models.user import User
+from routes.auth import get_current_user, get_admin_user  # Import corregido
 
 router = APIRouter()
 

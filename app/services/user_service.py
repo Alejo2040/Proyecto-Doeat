@@ -6,10 +6,10 @@ from sqlalchemy.exc import IntegrityError
 from uuid import uuid4
 from jose import JWTError 
 
-from ..models.user import User, UserRole
-from ..utils.security import get_password_hash, verify_password, create_access_token, create_refresh_token, verify_token
-from ..schemas.user import UserCreate, UserUpdate, TokenData
-from ..services.email_service import EmailService
+from models.user import User, UserRole
+from utils.security import get_password_hash, verify_password, create_access_token, create_refresh_token, verify_token
+from schemas.user import UserCreate, UserUpdate, TokenData
+from services.email_service import EmailService
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
