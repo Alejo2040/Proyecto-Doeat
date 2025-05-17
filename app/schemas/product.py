@@ -20,7 +20,7 @@ class ProductResponse(ProductBase):
     updated_at: datetime
     
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class ProductUpdate(BaseModel):
     """Esquema para actualizar productos"""
@@ -49,7 +49,7 @@ class StockMovementResponse(StockMovementBase):
     created_by: Optional[int] = None
     
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 # Esquemas para ventas
 class SaleItemBase(BaseModel):
@@ -68,7 +68,7 @@ class SaleItemResponse(SaleItemBase):
     subtotal: float
     
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class SaleBase(BaseModel):
     """Esquema base para ventas"""
@@ -91,7 +91,7 @@ class SaleResponse(BaseModel):
     items: List[SaleItemResponse]
     
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 # Esquemas para compras
 class PurchaseItemBase(BaseModel):
@@ -110,7 +110,7 @@ class PurchaseItemResponse(PurchaseItemBase):
     subtotal: float
     
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class PurchaseBase(BaseModel):
     """Esquema base para compras"""
@@ -133,7 +133,7 @@ class PurchaseResponse(BaseModel):
     items: List[PurchaseItemResponse]
     
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 # Esquemas para dashboard e informes
 class InventorySummary(BaseModel):
