@@ -8,9 +8,9 @@ import uvicorn
 import logging
 from sqlalchemy.exc import SQLAlchemyError
 
-from config.db import engine, Base
-from routes import auth, products, reports
-from models import user, product
+from .config.db import engine, Base
+from .routes import auth, products, reports
+from .models import user, product
 
 # Configurar logging
 logging.basicConfig(
@@ -91,4 +91,4 @@ async def log_requests(request: Request, call_next):
 
 # Punto de entrada para ejecución directa
 if __name__ == "__main__":
-    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("app.main:app", host="0.0.0.0", port=8000, reload=True)

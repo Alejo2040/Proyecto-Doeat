@@ -4,17 +4,17 @@ from sqlalchemy.orm import Session
 from typing import List, Optional
 from datetime import datetime
 
-from config.db import get_db
-from schemas.product import (
+from ..config.db import get_db
+from ..schemas.product import (
     ProductCreate, ProductResponse, ProductUpdate, 
     StockMovementCreate, StockMovementResponse,
     SaleCreate, SaleResponse,
     PurchaseCreate, PurchaseResponse,
     InventorySummary
 )
-from models.user import User
-from models.product import Product, StockMovement, Sale, SaleItem, Purchase, PurchaseItem
-from routes.auth import get_current_user, get_admin_user
+from ..models.user import User
+from ..models.product import Product, StockMovement, Sale, SaleItem, Purchase, PurchaseItem
+from ..routes.auth import get_current_user, get_admin_user
 
 # Crear router
 router = APIRouter()
